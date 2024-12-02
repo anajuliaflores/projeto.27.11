@@ -18,3 +18,18 @@ media_provas = notas.mean(axis=0)
 
 print("Média de cada aluno:", media_alunos)
 print("Média de cada prova:", media_provas)
+
+
+'''
+Primeiro importamos a biblioteca Numpy para que possamos usar as expressões numéricas contidas no código.
+Depois criamos um array bidimensional (matriz) com 5 linhas representando os alunos e 4 colunas representando as provas.
+Posteriormente fazemos uma lista da média dos alunos,
+      colocamos media_alunos = notas.mean(axis=1)
+                              chamamos a matriz notas e usamos o 'mean' que é uma função do numpy para calcular a média dos valores
+                              e usamos o 'axis=1' para dizer que queremos que use os valores das colunas.
+Depois usamos mais uma lista da médias das provas,
+        colocamos media_provas = notas.mean(axis=0)
+                            chamamos a matriz notas e usamos o 'mean' que é uma função de numpy para calcular a média dos valores
+                            e usamos o 'axis=0' para dizer que queremos que use os valores das linhas.
+Para finalizar colomos o print para apresentar o resultado chamando a media_alunos e a media_provas.
+'''

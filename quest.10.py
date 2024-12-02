@@ -26,3 +26,9 @@ plt.title("Distribuição de Alturas")
 plt.xlabel("Altura (cm)")
 plt.ylabel("Frequência")
 plt.show()
+
+
+'''
+
+
+'''
